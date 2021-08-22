@@ -1,0 +1,600 @@
+17-Feb-2020 00:39:18.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+17-Feb-2020 00:39:18.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+17-Feb-2020 00:39:18.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+17-Feb-2020 00:39:18.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Feb-2020 00:39:18.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Feb-2020 00:39:18.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Feb-2020 00:39:18.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+17-Feb-2020 00:39:18.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+17-Feb-2020 00:39:18.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Feb-2020 00:39:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 00:39:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 00:39:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|HP
+17-Feb-2020 00:39:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 00:39:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\Desktop\Tomcat 8.0\conf\logging.properties
+17-Feb-2020 00:39:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 00:39:18.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\Desktop\Tomcat 8.0\endorsed
+17-Feb-2020 00:39:18.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 00:39:18.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 00:39:18.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\Desktop\Tomcat 8.0\temp
+17-Feb-2020 00:39:18.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_211;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\PuTTY\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_241\bin;;.
+17-Feb-2020 00:39:22.521 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 00:39:25.180 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 00:39:25.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 00:39:25.258 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 00:39:25.259 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 13818 ms
+17-Feb-2020 00:39:25.658 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Feb-2020 00:39:25.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+17-Feb-2020 00:39:25.811 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+17-Feb-2020 00:39:26.465 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@65809da0]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\FoodOrdering\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 00:39:26.468 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 00:39:26.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml has finished in 662 ms
+17-Feb-2020 00:39:26.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 00:39:30.420 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 00:39:32.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 6,247 ms
+17-Feb-2020 00:39:32.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+17-Feb-2020 00:39:32.765 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1d1c09f3]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\WebApplication1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 00:39:32.767 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 00:39:32.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml has finished in 28 ms
+17-Feb-2020 00:39:32.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1
+17-Feb-2020 00:39:33.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1 has finished in 464 ms
+17-Feb-2020 00:39:33.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs
+17-Feb-2020 00:39:33.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs has finished in 329 ms
+17-Feb-2020 00:39:33.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples
+17-Feb-2020 00:39:40.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples has finished in 7,256 ms
+17-Feb-2020 00:39:40.931 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager
+17-Feb-2020 00:39:41.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager has finished in 409 ms
+17-Feb-2020 00:39:41.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager
+17-Feb-2020 00:39:41.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager has finished in 598 ms
+17-Feb-2020 00:39:41.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT
+17-Feb-2020 00:39:42.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT has finished in 136 ms
+17-Feb-2020 00:39:42.094 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 00:39:42.127 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 00:39:42.132 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16872 ms
+17-Feb-2020 00:42:03.536 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Feb-2020 00:42:03.538 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 00:42:03.611 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 00:42:03.679 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Feb-2020 00:42:04.451 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 00:42:04.533 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 00:42:04.588 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 00:42:04.593 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 08:45:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+17-Feb-2020 08:45:47.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+17-Feb-2020 08:45:47.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+17-Feb-2020 08:45:47.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Feb-2020 08:45:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Feb-2020 08:45:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Feb-2020 08:45:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+17-Feb-2020 08:45:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+17-Feb-2020 08:45:47.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Feb-2020 08:45:47.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 08:45:47.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 08:45:47.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|HP
+17-Feb-2020 08:45:47.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 08:45:47.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\Desktop\Tomcat 8.0\conf\logging.properties
+17-Feb-2020 08:45:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 08:45:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\Desktop\Tomcat 8.0\endorsed
+17-Feb-2020 08:45:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 08:45:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 08:45:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\Desktop\Tomcat 8.0\temp
+17-Feb-2020 08:45:47.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_211;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\PuTTY\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_241\bin;;.
+17-Feb-2020 08:45:49.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 08:45:50.149 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 08:45:50.174 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 08:45:50.182 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 08:45:50.183 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4464 ms
+17-Feb-2020 08:45:50.416 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Feb-2020 08:45:50.417 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+17-Feb-2020 08:45:50.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+17-Feb-2020 08:45:51.051 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3e39b941]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\FoodOrdering\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 08:45:51.055 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 08:45:51.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml has finished in 417 ms
+17-Feb-2020 08:45:51.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 08:46:00.097 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 08:46:01.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 10,663 ms
+17-Feb-2020 08:46:01.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+17-Feb-2020 08:46:01.749 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6c86efa2]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\WebApplication1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 08:46:01.751 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 08:46:01.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml has finished in 20 ms
+17-Feb-2020 08:46:01.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1
+17-Feb-2020 08:46:02.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1 has finished in 449 ms
+17-Feb-2020 08:46:02.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs
+17-Feb-2020 08:46:02.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs has finished in 330 ms
+17-Feb-2020 08:46:02.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples
+17-Feb-2020 08:46:05.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples has finished in 2,706 ms
+17-Feb-2020 08:46:05.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager
+17-Feb-2020 08:46:05.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager has finished in 216 ms
+17-Feb-2020 08:46:05.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager
+17-Feb-2020 08:46:05.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager has finished in 305 ms
+17-Feb-2020 08:46:05.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT
+17-Feb-2020 08:46:05.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT has finished in 132 ms
+17-Feb-2020 08:46:05.961 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 08:46:06.037 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 08:46:06.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 15910 ms
+17-Feb-2020 09:28:34.952 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Onlinefodorder]
+17-Feb-2020 09:28:40.277 WARNING [http-nio-9090-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Onlinefodorder] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Feb-2020 09:28:53.695 INFO [http-nio-9090-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onlinefodorder]] after start() had already been called. The second call will be ignored.
+17-Feb-2020 09:31:10.695 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Onlinefodorder]
+17-Feb-2020 09:56:17.894 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Feb-2020 09:56:18.144 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 09:56:18.657 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 09:56:18.755 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Feb-2020 09:56:20.646 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 09:56:20.707 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 09:56:20.911 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 09:56:21.220 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 09:56:33.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+17-Feb-2020 09:56:33.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+17-Feb-2020 09:56:33.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+17-Feb-2020 09:56:33.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Feb-2020 09:56:33.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Feb-2020 09:56:33.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Feb-2020 09:56:33.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+17-Feb-2020 09:56:33.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+17-Feb-2020 09:56:33.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Feb-2020 09:56:33.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 09:56:33.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 09:56:33.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|HP
+17-Feb-2020 09:56:33.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 09:56:33.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\Desktop\Tomcat 8.0\conf\logging.properties
+17-Feb-2020 09:56:33.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 09:56:33.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\Desktop\Tomcat 8.0\endorsed
+17-Feb-2020 09:56:33.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 09:56:33.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 09:56:33.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\Desktop\Tomcat 8.0\temp
+17-Feb-2020 09:56:33.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_211;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\PuTTY\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_241\bin;;.
+17-Feb-2020 09:56:39.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 09:56:43.392 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 09:56:43.403 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 09:56:43.417 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 09:56:43.418 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11602 ms
+17-Feb-2020 09:56:44.188 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Feb-2020 09:56:44.189 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+17-Feb-2020 09:56:44.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+17-Feb-2020 09:56:44.659 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@38970c12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\FoodOrdering\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 09:56:44.758 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 09:56:44.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml has finished in 386 ms
+17-Feb-2020 09:56:44.771 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+17-Feb-2020 09:56:44.786 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@62d9d441]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\WebApplication1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 09:56:44.796 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 09:56:44.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml has finished in 27 ms
+17-Feb-2020 09:56:44.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1
+17-Feb-2020 09:56:47.709 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:48.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1 has finished in 3,481 ms
+17-Feb-2020 09:56:48.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs
+17-Feb-2020 09:56:49.277 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:49.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs has finished in 1,000 ms
+17-Feb-2020 09:56:49.284 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples
+17-Feb-2020 09:56:55.355 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:55.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples has finished in 6,285 ms
+17-Feb-2020 09:56:55.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager
+17-Feb-2020 09:56:56.301 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:56.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager has finished in 744 ms
+17-Feb-2020 09:56:56.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager
+17-Feb-2020 09:56:56.934 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:56.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager has finished in 628 ms
+17-Feb-2020 09:56:56.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT
+17-Feb-2020 09:56:57.444 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:56:57.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT has finished in 515 ms
+17-Feb-2020 09:56:57.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 09:56:57.492 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 09:56:57.498 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 14079 ms
+17-Feb-2020 09:57:04.633 INFO [http-nio-9090-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 09:57:04.657 WARNING [http-nio-9090-exec-10] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+17-Feb-2020 09:57:05.969 WARNING [http-nio-9090-exec-10] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = jdbconline_food_order?zeroDateTimeBehavior=convertToNull Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "15" for "maxActive" property, which is being ignored.
+17-Feb-2020 09:57:05.990 INFO [http-nio-9090-exec-10] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = online_food_order Ignoring unknown property: value of "" for "description" property
+17-Feb-2020 09:57:06.003 INFO [http-nio-9090-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 09:57:06.207 INFO [http-nio-9090-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 1,573 ms
+17-Feb-2020 09:57:06.224 INFO [http-nio-9090-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onlinefodorder]] after start() had already been called. The second call will be ignored.
+17-Feb-2020 11:02:16.418 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Onlinefodorder]
+17-Feb-2020 11:02:16.428 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:02:19.988 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:02:20.047 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:10:17.077 INFO [http-nio-9090-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Onlinefodorder]
+17-Feb-2020 11:10:20.163 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 11:10:20.388 WARNING [http-nio-9090-exec-13] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+17-Feb-2020 11:10:22.020 INFO [http-nio-9090-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:10:22.164 INFO [38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 2,000 ms
+17-Feb-2020 11:10:24.826 INFO [http-nio-9090-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onlinefodorder]] after start() had already been called. The second call will be ignored.
+17-Feb-2020 11:10:26.302 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:10:26.563 INFO [http-nio-9090-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:10:26.678 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:11:31.123 INFO [http-nio-9090-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:11:32.511 INFO [http-nio-9090-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:11:32.523 INFO [http-nio-9090-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:11:45.892 INFO [http-nio-9090-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:11:46.297 INFO [http-nio-9090-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:11:46.303 INFO [http-nio-9090-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:32:02.277 INFO [http-nio-9090-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:32:04.922 INFO [http-nio-9090-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:32:05.056 INFO [http-nio-9090-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:32:15.229 INFO [http-nio-9090-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:32:15.740 INFO [http-nio-9090-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:32:15.836 INFO [http-nio-9090-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:32:16.409 INFO [http-nio-9090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:32:16.709 INFO [http-nio-9090-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:32:16.718 INFO [http-nio-9090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:33:16.342 INFO [http-nio-9090-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Onlinefodorder]
+17-Feb-2020 11:33:16.366 INFO [http-nio-9090-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 11:33:16.549 WARNING [http-nio-9090-exec-40] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+17-Feb-2020 11:33:17.760 INFO [65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:33:17.773 INFO [65] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 1,405 ms
+17-Feb-2020 11:33:19.040 INFO [http-nio-9090-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:33:19.314 INFO [http-nio-9090-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:33:19.336 INFO [http-nio-9090-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 11:34:56.814 INFO [http-nio-9090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 11:34:57.406 INFO [http-nio-9090-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 11:34:57.413 INFO [http-nio-9090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:08:36.782 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Feb-2020 17:08:36.783 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 17:08:36.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 17:08:37.074 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Feb-2020 17:08:37.474 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 17:08:37.511 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 17:08:37.602 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 17:08:37.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 17:20:32.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+17-Feb-2020 17:20:32.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+17-Feb-2020 17:20:32.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+17-Feb-2020 17:20:32.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Feb-2020 17:20:32.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Feb-2020 17:20:32.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Feb-2020 17:20:32.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+17-Feb-2020 17:20:32.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+17-Feb-2020 17:20:32.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Feb-2020 17:20:32.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 17:20:32.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 17:20:32.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|HP
+17-Feb-2020 17:20:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 17:20:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\Desktop\Tomcat 8.0\conf\logging.properties
+17-Feb-2020 17:20:32.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 17:20:32.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\Desktop\Tomcat 8.0\endorsed
+17-Feb-2020 17:20:32.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 17:20:32.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\Desktop\Tomcat 8.0
+17-Feb-2020 17:20:32.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\Desktop\Tomcat 8.0\temp
+17-Feb-2020 17:20:32.564 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_211;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\PuTTY\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_241\bin;;.
+17-Feb-2020 17:20:35.915 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 17:20:38.589 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 17:20:38.623 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 17:20:38.631 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 17:20:38.632 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11322 ms
+17-Feb-2020 17:20:39.103 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Feb-2020 17:20:39.103 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+17-Feb-2020 17:20:39.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+17-Feb-2020 17:20:40.596 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1cbe3505]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\FoodOrdering\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 17:20:40.629 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FoodOrdering]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 17:20:40.637 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\FoodOrdering.xml has finished in 1,163 ms
+17-Feb-2020 17:20:40.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 17:20:40.802 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+17-Feb-2020 17:20:45.726 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = online_food_order Ignoring unknown property: value of "" for "description" property
+17-Feb-2020 17:20:45.759 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = online_food_order?zeroDateTimeBehavior=convertToNull Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "15" for "maxActive" property, which is being ignored.
+17-Feb-2020 17:20:46.404 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:48.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 7,444 ms
+17-Feb-2020 17:20:48.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+17-Feb-2020 17:20:48.107 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@18b9fe33]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4929)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5059)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\java lab\WebApplication1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	... 13 more
+
+17-Feb-2020 17:20:48.109 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:587)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1798)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Feb-2020 17:20:48.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml has finished in 28 ms
+17-Feb-2020 17:20:48.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1
+17-Feb-2020 17:20:49.888 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:49.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\app1 has finished in 1,776 ms
+17-Feb-2020 17:20:49.907 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs
+17-Feb-2020 17:20:51.481 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:51.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\docs has finished in 1,584 ms
+17-Feb-2020 17:20:51.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples
+17-Feb-2020 17:20:57.866 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:58.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\examples has finished in 6,866 ms
+17-Feb-2020 17:20:58.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager
+17-Feb-2020 17:20:59.179 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:59.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\host-manager has finished in 830 ms
+17-Feb-2020 17:20:59.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager
+17-Feb-2020 17:20:59.953 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:20:59.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\manager has finished in 773 ms
+17-Feb-2020 17:20:59.964 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT
+17-Feb-2020 17:21:00.525 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 17:21:00.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\Desktop\Tomcat 8.0\webapps\ROOT has finished in 586 ms
+17-Feb-2020 17:21:00.561 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+17-Feb-2020 17:21:00.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+17-Feb-2020 17:21:00.643 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 22011 ms
+17-Feb-2020 17:21:04.069 INFO [http-nio-9090-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 17:21:05.562 INFO [http-nio-9090-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:22:51.005 INFO [http-nio-9090-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 17:22:55.975 INFO [http-nio-9090-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:23:11.215 INFO [http-nio-9090-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 17:23:11.977 INFO [http-nio-9090-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:29:04.563 INFO [http-nio-9090-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 17:29:07.106 INFO [http-nio-9090-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:29:07.361 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] has started
+17-Feb-2020 17:29:09.523 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Onlinefodorder] is completed
+17-Feb-2020 17:56:31.337 INFO [http-nio-9090-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Onlinefodorder]
+17-Feb-2020 17:56:31.797 INFO [http-nio-9090-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml
+17-Feb-2020 17:56:32.372 WARNING [http-nio-9090-exec-33] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+17-Feb-2020 17:56:34.110 INFO [http-nio-9090-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\user\Desktop\Tomcat 8.0\conf\Catalina\localhost\Onlinefodorder.xml has finished in 2,403 ms

@@ -1,0 +1,45 @@
+17-Jan-2020 13:54:25.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Tomcat 8.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Tomcat 8.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-P4AFM47
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Tomcat 8.0\conf\logging.properties
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Tomcat 8.0\endorsed
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Tomcat 8.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Tomcat 8.0
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Tomcat 8.0\temp
+17-Jan-2020 13:54:25.206 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Android;C:\Windows\System32;C:\Program Files\Java\jdk1.8.0_131\bin;.
+17-Jan-2020 13:54:25.706 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+17-Jan-2020 13:54:26.144 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jan-2020 13:54:26.144 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+17-Jan-2020 13:54:26.144 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jan-2020 13:54:26.144 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1706 ms
+17-Jan-2020 13:54:26.222 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Jan-2020 13:54:26.222 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+17-Jan-2020 13:54:26.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\app1
+17-Jan-2020 13:54:26.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\app1 has finished in 579 ms
+17-Jan-2020 13:54:26.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\docs
+17-Jan-2020 13:54:26.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\docs has finished in 78 ms
+17-Jan-2020 13:54:26.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\examples
+17-Jan-2020 13:54:28.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\examples has finished in 1,125 ms
+17-Jan-2020 13:54:28.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\host-manager
+17-Jan-2020 13:54:28.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\host-manager has finished in 78 ms
+17-Jan-2020 13:54:28.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\manager
+17-Jan-2020 13:54:28.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\manager has finished in 78 ms
+17-Jan-2020 13:54:28.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\ROOT
+17-Jan-2020 13:54:28.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\ROOT has finished in 110 ms
+17-Jan-2020 13:54:28.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+17-Jan-2020 13:54:28.300 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+17-Jan-2020 13:54:28.300 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2159 ms
+17-Jan-2020 13:54:29.582 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml
+17-Jan-2020 13:54:29.660 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Tomcat 8.0\conf\Catalina\localhost\WebApplication1.xml has finished in 62 ms
+17-Jan-2020 13:54:29.722 INFO [http-nio-9090-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.

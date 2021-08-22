@@ -1,0 +1,11 @@
+127.0.0.1 - - [06/Feb/2020:22:18:57 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Feb/2020:22:18:57 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Feb/2020:22:18:57 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Feb/2020:22:18:57 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Feb/2020:22:18:57 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - gahna [06/Feb/2020:22:18:58 +0530] "GET /manager/text/list HTTP/1.1" 200 289
+127.0.0.1 - gahna [06/Feb/2020:22:18:58 +0530] "GET /manager/text/list HTTP/1.1" 200 289
+127.0.0.1 - gahna [06/Feb/2020:22:18:58 +0530] "GET /manager/text/deploy?config=file%3A%2FC%3A%2FUsers%2FHP%2FAppData%2FLocal%2FTemp%2Fcontext1354025624736244459.xml&path=/FoodOrdering HTTP/1.1" 200 68
+127.0.0.1 - gahna [06/Feb/2020:22:18:58 +0530] "GET /manager/text/start?path=/FoodOrdering HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:22:19:05 +0530] "GET /FoodOrdering/index.html HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:22:19:06 +0530] "GET /FoodOrdering/1.jpg HTTP/1.1" 404 1030

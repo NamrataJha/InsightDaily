@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" docBase="C:/Users/user/Desktop/JPJ/Project 6 sem/Onlinefodorder/build/web" path="/Onlinefodorder">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="15" maxIdle="3" name="jdbc/online_food_order?zeroDateTimeBehavior=convertToNull" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/online_food_order?zeroDateTimeBehavior=convertToNull" username="root"/>
+</Context>

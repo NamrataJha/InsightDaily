@@ -1,0 +1,52 @@
+08-Jun-2018 14:52:22.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.35
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2016 21:57:08 UTC
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.35.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Tomcat 8.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Tomcat 8.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Tomcat 8.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Tomcat 8.0
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Tomcat 8.0\endorsed
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Tomcat 8.0\temp
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Tomcat 8.0\conf\logging.properties
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-Jun-2018 14:52:22.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Tomcat 8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\j2sdk1.4.2_01\bin;C:\j2sdk1.4.2_01\jre\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;.
+08-Jun-2018 14:52:23.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-Jun-2018 14:52:27.788 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jun-2018 14:52:27.804 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+08-Jun-2018 14:52:27.804 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jun-2018 14:52:27.804 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 8016 ms
+08-Jun-2018 14:52:27.929 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+08-Jun-2018 14:52:27.929 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.35
+08-Jun-2018 14:52:28.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\docs
+08-Jun-2018 14:52:28.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\docs has finished in 721 ms
+08-Jun-2018 14:52:28.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\examples
+08-Jun-2018 14:52:29.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\examples has finished in 641 ms
+08-Jun-2018 14:52:29.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\host-manager
+08-Jun-2018 14:52:29.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\host-manager has finished in 47 ms
+08-Jun-2018 14:52:29.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\manager
+08-Jun-2018 14:52:29.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\manager has finished in 63 ms
+08-Jun-2018 14:52:29.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\ROOT
+08-Jun-2018 14:52:29.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\ROOT has finished in 46 ms
+08-Jun-2018 14:52:29.555 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-Jun-2018 14:52:29.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+08-Jun-2018 14:52:29.571 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1768 ms
+08-Jun-2018 15:45:10.806 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\ROOT - Copy
+08-Jun-2018 15:45:10.962 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\ROOT - Copy has finished in 172 ms
+08-Jun-2018 15:45:31.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ROOT - Copy]
+08-Jun-2018 15:45:31.652 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Tomcat 8.0\webapps\app1
+08-Jun-2018 15:45:31.699 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Tomcat 8.0\webapps\app1 has finished in 47 ms
+08-Jun-2018 15:56:51.797 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/app1]
+08-Jun-2018 15:56:51.797 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/app1] has started
+08-Jun-2018 15:56:51.875 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/app1] is completed
+08-Jun-2018 15:57:01.906 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/app1]
+08-Jun-2018 15:57:01.906 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/app1] has started
+08-Jun-2018 15:57:01.969 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/app1] is completed
